@@ -1,0 +1,15 @@
+# Python / 환경
+.venv/
+__pycache__/
+*.pyc
+*.cache
+
+# 사람이 찍힌 영상·사진은 올리지 않음
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+
+# Windows 다운로드 메타데이터
+*Zone.Identifier
