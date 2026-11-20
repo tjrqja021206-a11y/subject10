@@ -1,0 +1,18 @@
+action_id,action_label,description
+A001,kiosk_tap,키오스크 두드리기
+A002,throw_one_hand,한손 물건 던지기
+A003,front_kick,앞차기
+A004,grab_shake,잡고 흔들기
+A005,push,밀치기
+A006,swing,휘두르기
+A007,sit_floor,바닥에 앉기
+A008,sit_on_object,위에 앉기
+A009,lie_forward,앞으로 눕기
+A010,lie_backward,뒤로 눕기
+A011,body_slam,몸통 박치기
+A012,crouch_take_item,쪼그려 물건 빼내기
+A013,shotgun,샷건
+A014,vomit,구토
+A015,fall_sideways,옆으로 쓰러지기
+A016,fall_backward,뒤로 넘어지기
+A017,fall_forward,앞으로 넘어지기

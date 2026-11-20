@@ -1,0 +1,9 @@
+﻿test,feature,classes,train_windows,test_windows,test_clips,window_acc,clip_acc
+view T01->T02,seq,17,739,715,32,0.192,0.188
+view T01->T02,robust,17,739,715,32,0.13,0.125
+view T02->T01,seq,17,715,739,34,0.13,0.088
+view T02->T01,robust,17,715,739,34,0.215,0.382
+person ->S01,seq,17,911,543,32,0.451,0.531
+person ->S01,robust,17,911,543,32,0.56,0.594
+person ->S02,seq,17,543,911,34,0.357,0.529
+person ->S02,robust,17,543,911,34,0.554,0.706
