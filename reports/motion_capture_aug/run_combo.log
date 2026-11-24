@@ -1,0 +1,9 @@
+트랙 255개 (사람 ['S01', 'S02', 'S03', 'S04', 'S05']) 로드 1s
+시험 Feature 준비 3s
+fps+pad+speed:4:0.5          clean 0.859/0.46/u0.36  cleanNT 0.882/0.46/u0.36  wc15 0.867/0.43/u0.45  wc15NT 0.876/0.41/u0.49  wc60 0.865/0.41/u0.49  wc60NT 0.878/0.41/u0.52  (327s)
+fps+pad+speed:8:0.5          clean 0.867/0.47/u0.35  cleanNT 0.882/0.47/u0.35  wc15 0.873/0.45/u0.43  wc15NT 0.876/0.42/u0.46  wc60 0.875/0.42/u0.48  wc60NT 0.888/0.42/u0.48  (345s)
+fps+pad+speed:6:0.7          clean 0.863/0.46/u0.37  cleanNT 0.882/0.46/u0.37  wc15 0.886/0.45/u0.43  wc15NT 0.878/0.42/u0.45  wc60 0.882/0.42/u0.48  wc60NT 0.900/0.41/u0.48  (341s)
+fps+pad+speed+noise:6:0.5    clean 0.835/0.46/u0.38  cleanNT 0.855/0.46/u0.38  wc15 0.871/0.43/u0.45  wc15NT 0.871/0.41/u0.52  wc60 0.849/0.41/u0.50  wc60NT 0.861/0.41/u0.52  (328s)
+fps+pad+speed+camera+noise:6:0.5 clean 0.847/0.47/u0.36  cleanNT 0.863/0.47/u0.35  wc15 0.863/0.43/u0.44  wc15NT 0.871/0.41/u0.49  wc60 0.871/0.42/u0.47  wc60NT 0.875/0.41/u0.49  (325s)
+fps+pad+speed+mirror+camera+noise:8:0.5 clean 0.839/0.47/u0.35  cleanNT 0.863/0.47/u0.35  wc15 0.865/0.44/u0.45  wc15NT 0.865/0.41/u0.50  wc60 0.869/0.42/u0.49  wc60NT 0.869/0.41/u0.50  (349s)
+완료 2018s → reports/motion_capture_aug/combo/experiments.csv

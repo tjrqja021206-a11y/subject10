@@ -1,0 +1,7 @@
+트랙 255개 (사람 ['S01', 'S02', 'S03', 'S04', 'S05']) 로드 1s
+  S01 완료 (47s)
+  S02 완료 (49s)
+  S03 완료 (47s)
+  S04 완료 (47s)
+  S05 완료 (48s)
+저장: reports/motion_capture_aug/calib/oof_predictions.csv (2295행)

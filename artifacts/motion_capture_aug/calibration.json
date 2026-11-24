@@ -1,0 +1,21 @@
+{
+  "method": "logistic_regression",
+  "features": [
+    "p1",
+    "p2",
+    "margin",
+    "log_ratio",
+    "entropy"
+  ],
+  "coef": [
+    1.110529,
+    1.215517,
+    -0.104988,
+    3.244893,
+    0.90784
+  ],
+  "intercept": -1.239116,
+  "n_samples": 2295,
+  "base_accuracy": 0.8867,
+  "source": "51번 --oof 사람 교차 검증 예측 (clean·wc15·wc60), 52번 학습"
+}

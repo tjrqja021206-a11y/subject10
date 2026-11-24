@@ -1,0 +1,6 @@
+트랙 255개 (사람 ['S01', 'S02', 'S03', 'S04', 'S05']) 로드 1s
+시험 Feature 준비 4s
+fps+pad+speed:10:0.7         clean 0.867/0.47/u0.36  cleanNT 0.886/0.47/u0.36  wc15 0.871/0.45/u0.41  wc15NT 0.865/0.43/u0.45  wc60 0.873/0.43/u0.47  wc60NT 0.880/0.42/u0.47  (369s)
+fps+pad+speed:6:0.85         clean 0.851/0.46/u0.38  cleanNT 0.871/0.46/u0.38  wc15 0.876/0.45/u0.42  wc15NT 0.882/0.43/u0.46  wc60 0.876/0.42/u0.50  wc60NT 0.886/0.41/u0.49  (343s)
+fps+speed:6:0.7              clean 0.886/0.46/u0.38  cleanNT 0.906/0.46/u0.37  wc15 0.882/0.41/u0.52  wc15NT 0.847/0.37/u0.67  wc60 0.849/0.38/u0.60  wc60NT 0.853/0.37/u0.67  (324s)
+완료 1038s → reports/motion_capture_aug/tune/experiments.csv
