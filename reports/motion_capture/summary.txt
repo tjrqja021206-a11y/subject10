@@ -1,13 +1,36 @@
-Subjects: S01, S02
+Subjects: S01, S02, S03, S04, S05
+Views: T01=front, T02=right, T03=back, T02M=left(mirror, train only)
 Window: 2.0s / stride 0.25s
 Chance: 0.059 (17 actions)
 
-test               feature  clips window_acc clip_acc
-view T01->T02      seq         32      0.192    0.188
-view T01->T02      robust      32       0.13    0.125
-view T02->T01      seq         34       0.13    0.088
-view T02->T01      robust      34      0.215    0.382
-person ->S01       seq         32      0.451    0.531
-person ->S01       robust      32       0.56    0.594
-person ->S02       seq         34      0.357    0.529
-person ->S02       robust      34      0.554    0.706
+Clip accuracy
+  condition  person_window_acc  person_clip_acc  person_S01  person_S02  person_S03  person_S04  person_S05  person_view_front  person_view_right  person_view_back  view_front  view_right  view_back
+        seq              0.614            0.741       0.745       0.804       0.706       0.765       0.686              0.765              0.718             0.741       0.200       0.141      0.176
+    seq+aug              0.625            0.737       0.686       0.706       0.725       0.804       0.765              0.741              0.729             0.741       0.165       0.141      0.247
+     robust              0.705            0.812       0.804       0.863       0.804       0.824       0.765              0.906              0.835             0.694       0.506       0.306      0.494
+ robust+aug              0.710            0.812       0.804       0.843       0.843       0.804       0.765              0.918              0.800             0.718       0.494       0.306      0.482
+    robust2              0.717            0.839       0.804       0.902       0.882       0.804       0.804              0.894              0.859             0.765       0.506       0.341      0.529
+robust2+aug              0.724            0.831       0.784       0.882       0.863       0.863       0.765              0.894              0.835             0.765       0.506       0.341      0.518
+     hybrid              0.717            0.906       0.824       0.941       0.922       0.941       0.902              0.918              0.918             0.882       0.682       0.447      0.518
+ hybrid+aug              0.724            0.898       0.824       0.941       0.902       0.902       0.922              0.918              0.929             0.847       0.647       0.447      0.576
+
+Final model: hybrid -> /home/user1/ai_vision/subject10_pose_action/artifacts/motion_capture/action_model.joblib
+
+Per action (person test, hybrid)
+A001 키오스크 두드리기    15/15
+A002 한손 물건 던지기    14/15  (자주 틀림 → 키오스크 두드리기)
+A003 앞차기          15/15
+A004 잡고 흔들기       12/15  (자주 틀림 → 몸통 박치기)
+A005 밀치기          9/15  (자주 틀림 → 잡고 흔들기)
+A006 휘두르기         15/15
+A007 바닥에 앉기       15/15
+A008 위에 앉기        15/15
+A009 앞으로 눕기       13/15  (자주 틀림 → 앞으로 넘어지기)
+A010 뒤로 눕기        15/15
+A011 몸통 박치기       15/15
+A012 쪼그려 물건 빼내기   10/15  (자주 틀림 → 앞으로 눕기)
+A013 샷건           11/15  (자주 틀림 → 휘두르기)
+A014 구토           15/15
+A015 옆으로 쓰러지기     14/15  (자주 틀림 → 바닥에 앉기)
+A016 뒤로 넘어지기      14/15  (자주 틀림 → 옆으로 쓰러지기)
+A017 앞으로 넘어지기     14/15  (자주 틀림 → 앞으로 눕기)
